@@ -75,9 +75,9 @@ ui <- fluidPage(
                  plotOutput("histogram", height = "400px"),
                  
                  # Space for summary statistics (Task 2 - students will add this)
-                 # br(),
-                 # h3("Summary Statistics"),
-                 # verbatimTextOutput("summary")
+                  br(),
+                  h3("Summary Statistics"),
+                  verbatimTextOutput("summary")
         ),
         
         # Dataset info tab
